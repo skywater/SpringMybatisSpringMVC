@@ -63,12 +63,7 @@ public class ParamDealAspect {
     @Around(value = "paramDealPointcut()")
     public void aroundMethod(ProceedingJoinPoint joinPoint) throws Throwable {
     	logger.info("aroundMethod：{},{}", AspectUtil.getClassName(joinPoint), AspectUtil.getMethodName(joinPoint));
-    	// joinPoint.getArgs()返回的数组：1、默认@RequestParam注解参数，则是["www","rrrr"]数组；2、@RequestBody注解参数，则是[{"token":null,"id":null,"data":null}] 
-//    	logger.info("{},{}", joinPoint.getSignature().getDeclaringTypeName(), JsonUtil.toJson(joinPoint.getArgs()));
-//    	ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-//        HttpServletRequest request = attributes.getRequest();
-//        logger.info("{},{}", request.getSession().getAttributeNames(), 
-//        	JsonUtil.toJson(request.getParameterNames()));
+    	joinPoint.proceed();
     }
     
     @After(value = "paramDealPointcut()")
