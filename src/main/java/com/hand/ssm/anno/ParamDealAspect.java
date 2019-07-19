@@ -2,7 +2,7 @@
  * Project Name: springboot
  * File Name: ParamDealAspect.java
  * @date 2018年12月20日下午7:47:36
- * Copyright (c) 2018 linklogis.com All Rights Reserved.
+ * Copyright (c) 2018 .com All Rights Reserved.
  */
 
 package com.hand.ssm.anno;

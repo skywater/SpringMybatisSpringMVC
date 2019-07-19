@@ -3,7 +3,7 @@
  * File Name:JSONUtil.java
  * Package Name:com.jpq.springboot.util
  * Date:2018年7月20日下午5:40:01
- * Copyright (c) 2018, jiangpeiquan@linklogis.com 联易融 All Rights Reserved.
+ * Copyright (c) 2018, jiangpeiquan@.com 联易融 All Rights Reserved.
  */
 
 package com.hand.ssm.anno;

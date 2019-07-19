@@ -2,7 +2,7 @@
  * Project Name: dbass-web
  * File Name: ParamDeal.java
  * @date 2018年12月24日上午10:58:41
- * Copyright (c) 2018 linklogis.com All Rights Reserved.
+ * Copyright (c) 2018 .com All Rights Reserved.
  */
 
 package com.hand.ssm.anno;
