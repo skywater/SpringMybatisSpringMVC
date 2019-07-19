@@ -2,7 +2,7 @@
  * Project Name: dbass-web
  * File Name: ConfigClass.java
  * @date 2018年12月24日上午11:25:33
- * Copyright (c) 2018 linklogis.com All Rights Reserved.
+ * Copyright (c) 2018 .com All Rights Reserved.
  */
 
 package com.hand.ssm.anno;
